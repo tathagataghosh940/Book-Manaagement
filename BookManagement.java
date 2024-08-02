@@ -3,7 +3,6 @@ package book_management_system;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// BookManagement class to manage a collection of books
 public class BookManagement {
     private ArrayList<Book> books;
 
@@ -69,7 +68,7 @@ public class BookManagement {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Consume the newline character
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
