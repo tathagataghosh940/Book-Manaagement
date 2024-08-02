@@ -2,7 +2,6 @@ package book_management_system;
 
 import java.util.Objects;
 
-// Book class to represent a book
 class Book {
     private String title;
     private String author;
